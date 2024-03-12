@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Redressed&display=swap&#39');
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+}
+
+:root {
+    --corLightBlue: #C6E2E9;
+    --corbabyPink: #EEC0C6;
+    --corDarkSienna: #2A0800;
+    --corSafatyYellow: #f1d302;
+}
+
+/* Menu */
+
+#menu ul {
+    padding-top: 0.6em;
+    padding-bottom: 0.5em;
+    padding-right: 0em;
+    padding-left: 0em;
+    margin-top: auto;
+    background-color: #EDEDED;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 4%;
+}
+
+/* Menu na horizontal */
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    padding: 0.3em 3em;
+    display: inline-block;
+    /*Visual do link*/
+    background-color: #EDEDED;
+    color: #333;
+    text-decoration: none;
+    border-bottom: 0.7em solid #EDEDED;
+}
+
+#menu ul li a:hover {
+    background-color: #D6D6D6;
+    color: #6d6d6d;
+    border-bottom: 0.2em solid #EA0000;
+}
+
+.apresentacao > h2 {
+    width: 100%;
+    height: 6%;
+    padding-top: 0.3em;
+    padding-bottom: 0.2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #dfd4d5;
+}
+
+.apresentacao > p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    padding-bottom: 10px;
+    margin-bottom: 2px;
+}
+
+/* Primeiro Bloco */
+
+.bloco1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    width: 100%;
+    height: 6%;
+    background-color: var(--corbabyPink);
+    padding-bottom: 0.1em;
+    padding-top: 0.1em;
+}
+
+.imgBombom {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: bottom;
+    padding-bottom: 0.9em;
+}
+
+.bloco1-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.doce {
+    width: 40%;
+    height: auto;
+    object-fit: cover; 
+    object-position: bottom;
+    padding-bottom: 0.9em;
+    border-radius: 2em;
+}
+
+.cupcake {
+    width: 40%;
+    height: auto;
+    object-fit: cover;
+    object-position: bottom;
+    padding-bottom: 0.9em;
+    border-radius: 2em;
+}
+
+/* Segundo bloco */
+
+.bloco2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    width: 100%;
+    height: 6%;
+    background-color: rgb(95,44,44);
+    padding-bottom: 0.1em;
+    padding-top: 0.1em;
+}
+
+.imgMaracuja {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: bottom;
+    padding-bottom: 0.9em;
+}
+
+.bloco2-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boloCookie {
+    width: 40%;
+    height: auto;
+    object-fit: cover;
+    object-position: bottom;
+    padding-bottom: 0.9em;
+    border-radius: 2em;
+}
+
+.boloFrutas {
+    width: 40%;
+    height: auto;
+    object-fit: cover;
+    object-position: bottom;
+    padding-bottom: 0.9em;
+    border-radius: 2em;
+}
+
+/* Terceiro Bloco */
+
+.bloco3 {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    width: 100%;
+    height: 6%;
+    background-color:#E7D456;;
+    padding-bottom: 0.1em;
+    padding-top: 0.1em;
+}
+
+.imgBoloSimples {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: bottom;
+    padding-bottom: 0.9em;
+}
+
+.bloco3-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boloKiwi {
+    width: 40%;
+    height: auto;
+    object-fit: cover;
+    padding-bottom: 0.9em;
+    border-radius: 2em;
+}
+
+.boloCasamento {
+    width: 40%;
+    height: auto;
+    object-fit: cover;
+    object-position: bottom;
+    padding-bottom: 0.9em;
+    border-radius: 2em;
+}
+
+/* Quarto Bloco */
+
+.bloco4 {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    width: 100%;
+    height: 6%;
+    background-color: #CA56DA;
+    padding-bottom: 0.1em;
+    padding-top: 0.1em;
+}
+
+.imgBoloRosa {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: bottom;
+    padding-bottom: 0.9em;
+}
+
+.bloco4-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boloAmong {
+    width: 40%;
+    height: auto;
+    object-fit: cover;
+    object-position: bottom;
+    padding-bottom: 0.9em;
+    border-radius: 2em;
+}
+
+.boloCrianca {
+    width: 40%;
+    height: auto;
+    object-fit: cover;
+    object-position: bottom;
+    padding-bottom: 0.9em;
+    border-radius: 2em;
+}
+
+/* Bloco Rodape */
+
+.contatos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #EDEDED;
+}
+
+.contatos > h2 {
+    font-size: 1.2em;
+    padding: 0.3em;
+    margin: 0%;
+}
+
+.contatos > h3 {
+    font-size: 0.9em;
+    padding: 0.3em;
+    margin: 0%;
+}
+
+.redeSocial {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #EDEDED;
+}
+
+.instagram {
+    padding-right: 0.15em;
+    padding-bottom: 0.1em;
+}
+
+.facebook {
+    padding-left: 0.15em;
+}
+
+.rodape {
+    background-color: #dfd4d5;
+    font-size: 0.8em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+@media screen and (max-width: 667px) {
+    /* Config Menu */
+    #menu ul {
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        padding-right: 0em;
+        padding-left: 0em;
+        margin-top: auto;
+        background-color: #EDEDED;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 5%;
+    }
+
+    #menu ul li a {
+        padding: 0.1em 1em;
+        display: inline-block;
+        /*Visual do link*/
+        background-color: #EDEDED;
+        color: #333;
+        text-decoration: none;
+        border-bottom: 3px #EDEDED;
+    }
+
+    /*Quem Somos*/
+    .apresentacao > h2 {
+        width: 100%;
+        height: 6%;
+        padding-top: 0.2em;
+        padding-bottom: 0.1em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #dfd4d5;
+    }
+
+    /* Primeiro Bloco */
+
+    .bloco1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 13px;
+        width: 100%;
+        height: 3%;
+        background-color: var(--corbabyPink);
+        padding-bottom: 0.1em;
+        padding-top: 0.1em;
+    }
+
+    /* Palavras lorem ipsum */
+
+    .bloco1-2 > h2 {
+        font-size: 0.7em;
+    }
+
+    .bloco2-2 > h2 {
+        font-size: 0.7em;
+    }
+
+    .bloco3-2 > h2 {
+        font-size: 0.7em;
+    }
+
+    .bloco4-2 > h2 {
+        font-size: 0.7em;
+    }
+
+    /* Rodape */
+
+    .rodape > h3 {
+        font-size: 0.7em;
+    }
+}
